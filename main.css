@@ -38,15 +38,12 @@ section#interface {
   .monster.monster.Axedude {
     background: url("img/monsters/Axedude.png") 0px 0px no-repeat;
     background-size: cover;
-    max-width: 50%;
     -webkit-filter: hue-rotate(60deg) saturate(100%) brightness(86); }
   .monster.monster.Snek {
     background: url("img/monsters/Snek.png") 0px 0px no-repeat;
     background-size: cover;
-    max-width: 25.0980392157%;
     -webkit-filter: hue-rotate(120deg) saturate(100%) brightness(9.9978777393); }
   .monster.monster.Weregoat {
     background: url("img/monsters/Weregoat.png") 0px 0px no-repeat;
     background-size: cover;
-    max-width: 50%;
     -webkit-filter: hue-rotate(240deg) saturate(100%) brightness(1); }

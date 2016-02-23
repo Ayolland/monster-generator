@@ -28,7 +28,6 @@ $monster-color-map:(
 			$total-value: (red($color) + blue($color) + green($color));
 			$brightness: abs((14/21675)*($total-value * $total-value) - (41/255) * $total-value);
 			// Ugh. This is a quadratic equation needed b/c we are modifing the base color red.
-			max-width: lightness($color);
 			-webkit-filter: hue-rotate(hue($color)) saturate(saturation($color)) brightness($brightness);
 		}
 	}

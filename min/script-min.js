@@ -1,0 +1,1 @@
+function switchMonster(){var e=["Snek","Axedude","Weregoat"],t=e[Math.floor(Math.random()*e.length)],n=document.getElementById("monster");n.className="monster "+t}document.getElementById("switchMonster").addEventListener("click",switchMonster);
