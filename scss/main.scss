@@ -9,8 +9,17 @@ body{
   		image-rendering: -o-crisp-edges; // Opera 12
   		image-rendering: pixelated; // Chrome 41+ and Opera 26+
 
-  		font-family: 'VT323', sans-serif
+  		font-family: 'VT323', sans-serif;
+      color: white;
 	}
 }
 
-@import 'partials/monsters'
+.display{
+  width: 160px;
+  height: 80px;
+  background: url(img/bg.png) center center no-repeat;
+  background-size: cover;
+}
+
+@import 'partials/hsv_to_hsl';
+@import 'partials/monsters';

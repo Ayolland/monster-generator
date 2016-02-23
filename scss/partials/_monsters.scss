@@ -1,3 +1,31 @@
-@mixin monster($monster-color-map){
+// @mixin monsters($monster-color-map){
+// 	@each $monster-name, $color in $monster-color-map{
+// 		.monster.#{$monster-name}{
+// 			background: url('img/monsters/#{monster-name}.png') 0px 0px no-repeat;
+// 			-webkit-filter: hue-rotate(hue($color));
+// 		}
+// 	}
+// }
 
+$monster-color-map:(
+	Axedude: yellow,
+	Snek: green,
+	Weregoat: blue
+);
+
+.monster{
+	display: block;
+	width: 48px;
+	height: 72px;
+	position: relative;
+	top: 4px;
+	left: 56px;
+
+	@each $monster-name, $color in $monster-color-map{
+		&.monster.#{$monster-name}{
+			background: url('img/monsters/#{$monster-name}.png') 0px 0px no-repeat;
+			background-size: cover;
+			-webkit-filter: hue-rotate(hue($color)) saturate(saturation($color)) brightness(lightness($color));
+		}
+	}
 }
