@@ -24,6 +24,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/monsters\/Gooball.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 224,
+		"inputAbbreviatedPath": "\/img\/monsters\/Gooball.png",
+		"outputAbbreviatedPath": "\/img\/monsters\/Gooball.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/monsters\/Scamp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 228,
+		"inputAbbreviatedPath": "\/img\/monsters\/Scamp.png",
+		"outputAbbreviatedPath": "\/img\/monsters\/Scamp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/monsters\/Skelebones.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 253,
+		"inputAbbreviatedPath": "\/img\/monsters\/Skelebones.png",
+		"outputAbbreviatedPath": "\/img\/monsters\/Skelebones.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/monsters\/Snek.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -42,6 +75,17 @@
 		"initialSize": 242,
 		"inputAbbreviatedPath": "\/img\/monsters\/Weregoat.png",
 		"outputAbbreviatedPath": "\/img\/monsters\/Weregoat.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/monsters\/Wiz.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 278,
+		"inputAbbreviatedPath": "\/img\/monsters\/Wiz.png",
+		"outputAbbreviatedPath": "\/img\/monsters\/Wiz.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

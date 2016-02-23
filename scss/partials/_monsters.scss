@@ -10,8 +10,18 @@
 $monster-color-map:(
 	Axedude: yellow,
 	Snek: green,
-	Weregoat: blue
+	Weregoat: white,
+	Scamp: darkgreen,
+	Gooball: purple,
+	Wiz: blue,
+	Skelebones: gray
 );
+
+@keyframes monster-ready {
+	0% { background-position-y: 0;}
+	50% { background-position-y: 100%;}
+	100% { background-position-y: 100%;}
+}
 
 .monster{
 	display: block;
@@ -21,8 +31,10 @@ $monster-color-map:(
 	top: 4px;
 	left: 56px;
 
+	animation: monster-ready 1.5s steps(1, end) infinite;
+
 	@each $monster-name, $color in $monster-color-map{
-		&.monster.#{$monster-name}{
+		&.#{$monster-name}{
 			background: url('img/monsters/#{$monster-name}.png') 0px 0px no-repeat;
 			background-size: cover;
 			$total-value: (red($color) + blue($color) + green($color));
