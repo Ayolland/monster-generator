@@ -14,12 +14,27 @@ body{
 	}
 }
 
-.display{
+.button{
+  font-size: 1.25em;
+  border: 1px solid white;
+  padding: 0.25em 0.5em 0.4em 0.5em;
+  &:hover{
+    color: black;
+    background-color: white;
+  }
+}
+
+section#display{
   width: 160px;
   height: 80px;
+  margin: 0 auto;
   background: url(img/bg.png) center center no-repeat;
   background-size: cover;
 }
 
-@import 'partials/hsv_to_hsl';
+section#interface{
+  text-align: center;
+}
+
+
 @import 'partials/monsters';

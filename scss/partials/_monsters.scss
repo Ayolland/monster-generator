@@ -25,7 +25,8 @@ $monster-color-map:(
 		&.monster.#{$monster-name}{
 			background: url('img/monsters/#{$monster-name}.png') 0px 0px no-repeat;
 			background-size: cover;
-			-webkit-filter: hue-rotate(hue($color)) saturate(saturation($color)) brightness(lightness($color));
+			$brightness: ((red($color) + blue($color) + green($color)) / 3) ;
+			-webkit-filter: hue-rotate(hue($color)) saturate(saturation($color)) brightness($brightness);
 		}
 	}
 }

@@ -10,13 +10,24 @@ body {
     font-family: 'VT323', sans-serif;
     color: white; }
 
-.display {
+.button {
+  font-size: 1.25em;
+  border: 1px solid white;
+  padding: 0.25em 0.5em 0.4em 0.5em; }
+  .button:hover {
+    color: black;
+    background-color: white; }
+
+section#display {
   width: 160px;
   height: 80px;
+  margin: 0 auto;
   background: url(img/bg.png) center center no-repeat;
   background-size: cover; }
 
-/*! hsv_to_hsl.scss | MIT License | https://gist.github.com/voxpelli/1069204 */
+section#interface {
+  text-align: center; }
+
 .monster {
   display: block;
   width: 48px;
@@ -27,12 +38,12 @@ body {
   .monster.monster.Axedude {
     background: url("img/monsters/Axedude.png") 0px 0px no-repeat;
     background-size: cover;
-    -webkit-filter: hue-rotate(60deg) saturate(100%) brightness(50%); }
+    -webkit-filter: hue-rotate(60deg) saturate(100%) brightness(170); }
   .monster.monster.Snek {
     background: url("img/monsters/Snek.png") 0px 0px no-repeat;
     background-size: cover;
-    -webkit-filter: hue-rotate(120deg) saturate(100%) brightness(25.0980392157%); }
+    -webkit-filter: hue-rotate(120deg) saturate(100%) brightness(42.6666666667); }
   .monster.monster.Weregoat {
     background: url("img/monsters/Weregoat.png") 0px 0px no-repeat;
     background-size: cover;
-    -webkit-filter: hue-rotate(240deg) saturate(100%) brightness(50%); }
+    -webkit-filter: hue-rotate(240deg) saturate(100%) brightness(85); }

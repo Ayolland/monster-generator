@@ -102,22 +102,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/partials\/_hsv_to_hsl.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/partials\/_hsv_to_hsl.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_hsv_to_hsl.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/scss\/partials\/_monsters.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
